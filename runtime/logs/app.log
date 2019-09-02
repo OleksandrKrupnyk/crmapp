@@ -226,3 +226,853 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-09-02 17:21:28 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:21:28 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567434088.0465
+    'REQUEST_TIME' => 1567434088
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-02 17:28:53 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:28:51 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567434531.9682
+    'REQUEST_TIME' => 1567434531
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'create_init_customer_table'
+    ]
+    'argc' => 3
+]
+2019-09-02 17:33:00 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:32:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567434778.3321
+    'REQUEST_TIME' => 1567434778
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'create_init_customer_phone_table'
+    ]
+    'argc' => 3
+]
+2019-09-02 17:40:24 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:40:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567435222.2277
+    'REQUEST_TIME' => 1567435222
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-02 17:41:14 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:41:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567435272.6162
+    'REQUEST_TIME' => 1567435272
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-02 17:42:07 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:42:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567435326.3595
+    'REQUEST_TIME' => 1567435326
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-02 17:43:11 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:43:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567435389.8104
+    'REQUEST_TIME' => 1567435389
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-02 17:43:55 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\console\Request::getAbsoluteUrl()' 
+
+in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Component.php:300
+
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(178): yii\base\Component->__call('getAbsoluteUrl', Array)
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(55): yii\debug\LogTarget->collectSummary()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2-debug\src\LogTarget.php(136): yii\debug\LogTarget->export()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#4 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2019-09-02 17:43:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => 'C:/Program Files/Git/mingw64/etc/config.site'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Alex'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Alex'
+    'HOSTNAME' => 'ALEX-PC'
+    'IDEA_INITIAL_DIRECTORY' => 'e:\\Desktop'
+    'INFOPATH' => 'C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MANPATH' => 'C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => 'C:/Program Files/Git/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'ORIGINAL_TMP' => 'C:/Users/Alex/AppData/Local/Temp'
+    'OS' => 'Windows_NT'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'PATH' => 'C:\\Users\\Alex\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alex\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\ProgramData\\DockerDesktop\\version-bin;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\ComposerSetup;E:\\OpenServer\\OSPanel\\modules\\php\\PHP_7.3-x64;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => 'C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => 'E:/OpenServer/OSPanel/domains/crmapp'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TERM' => 'cygwin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'TMP' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\Alex\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'WINDIR' => 'C:\\Windows'
+    '_' => 'E:/OpenServer/OSPanel/modules/php/PHP_7.3-x64/php'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-338'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567435432.9612
+    'REQUEST_TIME' => 1567435432
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]

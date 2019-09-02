@@ -1,15 +1,9 @@
 <?php
 return [
-    'id' => 'crmapp',
+    'id' => 'crmapp-console',
     'basePath' => dirname(__DIR__) . '/',
     'components' => [
-        'request' => [
-            'cookieValidationKey' => 'secretPassword',
-        ],
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false
-        ],
+        'db'=>require (__DIR__.'/db.php'),
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -23,8 +17,7 @@ return [
     ],
     'modules' => [
         'debug' => [
-            'class' => \yii\debug\Module::class,
-            'allowedIPs' => ['*']
+            'class' => 'yii\debug\Module',
         ],
         'gii' => [
             'class' => 'yii\gii\Module',
