@@ -19,8 +19,8 @@ class m190902_142852_create_init_customer_table extends Migration
             'name' => $this->string()->comment('Name'),
             'birth_date' => $this->date()->comment('BirthDay'),
             'notes'=> $this->text()->comment('Notes'),
-            'created_at' => $this->timestamp()->comment('Created At'),
-            'updated_at' => $this->timestamp()->comment('Updated At')
+            'created_at' => $this->integer(11)->comment('Created At'),
+            'updated_at' => $this->integer(11)->comment('Updated At')
         ],
             'ENGINE=InnoDB'
         );

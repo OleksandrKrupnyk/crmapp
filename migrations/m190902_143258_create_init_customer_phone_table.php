@@ -22,7 +22,9 @@ class m190902_143258_create_init_customer_phone_table extends Migration
         ],'ENGINE=InnoDB');
         $this->addForeignKey('customer_phone_numbers',
             $this->phoneTable, 'customer_id',
-            $this->customerTable, 'id');
+            $this->customerTable, 'id',
+            'CASCADE',
+            'CASCADE');
     }
 
 

@@ -4,7 +4,9 @@
 namespace app\models\customer;
 
 
+use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
+use yii\helpers\ArrayHelper;
 
 /**
  * Class CustomerRecord
@@ -35,6 +37,14 @@ class CustomerRecord extends ActiveRecord
             ['birth_date', 'date', 'format' => 'Y-m-d'],
             ['notes', 'safe']
         ];
+    }
+
+
+    public function behaviors()
+    {
+        return ArrayHelper::merge(parent::behaviors(), [
+            'class' => TimestampBehavior::class,
+        ]);
     }
 
 }

@@ -8,6 +8,6 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://crmapp.local
+            url: http://crmapp.loc
         - \Helper\Acceptance
     step_decorators: ~

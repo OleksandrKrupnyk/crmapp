@@ -7,7 +7,7 @@ namespace app\models\customer;
 class Customer
 {
     public $name;
-    public $birth_name;
+    public $birth_date;
     public $notes = '';
     /**
      * @var Phone[]
@@ -16,8 +16,8 @@ class Customer
 
     public function __construct($name, $birth_name)
     {
-        $this->name = $name;
-        $this->birth_name = $birth_name;
+        $this->name       = $name;
+        $this->birth_date = $birth_name;
 
 
     }

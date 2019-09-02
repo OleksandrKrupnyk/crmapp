@@ -10,12 +10,12 @@ class CRMOperatorSteps extends \AcceptanceTester
     public function amInAddCustomerUi()
     {
         $I = $this;
-        $I->amOnPage('/customer/add');
+        $I->amOnPage('/customers/add');
     }
 
     public function imagineCustomer()
     {
-        $faker = Factory::create();
+        $faker = Factory::create('uk_UA');
         return [
             'CustomerRecord[name]' => $faker->name,
             'CustomerRecord[birth_date]' => $faker->date('Y-m-d'),
@@ -42,7 +42,7 @@ class CRMOperatorSteps extends \AcceptanceTester
     public function seeIAmInListCustomersUi()
     {
         $I = $this;
-        $I->seeCurrentUrlMatches('/customers');
+        $I->seeCurrentUrlMatches("/customers/");
     }
 
 
