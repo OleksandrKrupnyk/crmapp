@@ -1,0 +1,228 @@
+2019-09-02 16:45:48 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unknown bootstrapping component ID: gii in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php:317
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#4 E:\OpenServer\OSPanel\domains\crmapp\web\index.php(10): yii\base\Application->__construct(Array)
+#5 {main}
+2019-09-02 16:45:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'e:\\openserver\\ospanel'
+    'HOMEDRIVE' => 'e:'
+    'HOMEPATH' => '\\openserver\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'e:\\openserver\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'e:\\openserver\\ospanel\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64;e:\\openserver\\ospanel\\modules\\imagemagick;e:\\openserver\\ospanel\\modules\\wget\\bin;e:\\openserver\\ospanel\\modules\\git;e:\\openserver\\ospanel\\modules\\git\\bin;e:\\openserver\\ospanel\\modules\\git\\mingw\\bin;e:\\openserver\\ospanel\\modules\\git\\cmd;e:\\openserver\\ospanel\\modules\\database\\PostgreSQL-11.2-x64\\bin;e:\\openserver\\ospanel\\modules\\database\\PostgreSQL-11.2-x64\\lib;e:\\openserver\\ospanel\\modules\\redis\\Redis-3.2-x64;e:\\openserver\\ospanel\\modules\\http\\Nginx_1.14\\bin;e:\\openserver\\ospanel\\modules\\http\\Nginx_1.14;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHPDIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHPRC' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'PHP_BIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_BINARY' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_BINDIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHP_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHP_FCGI_MAX_REQUESTS' => '0'
+    'PHP_INI' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'e:/openserver/ospanel/userdata/temp'
+    'TERM' => 'msys'
+    'TMP' => 'e:/openserver/ospanel/userdata/temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'windir' => 'C:\\Windows'
+    '__COMPAT_LAYER' => 'Installer'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8,uk;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'crmapp.local'
+    'TMPDIR' => 'e:/openserver/ospanel/userdata/temp'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'e:/openserver/ospanel/domains/crmapp/web/index.php'
+    'SERVER_SOFTWARE' => 'nginx'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'crmapp.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '9216'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'HTTPS' => ''
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'e:/openserver/ospanel/domains/crmapp/web'
+    'DOCUMENT_URI' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567431948.4446
+    'REQUEST_TIME' => 1567431948
+    'argv' => []
+    'argc' => 0
+]
+2019-09-02 16:45:49 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unknown bootstrapping component ID: gii in E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php:317
+Stack trace:
+#0 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#1 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#2 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#3 E:\OpenServer\OSPanel\domains\crmapp\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#4 E:\OpenServer\OSPanel\domains\crmapp\web\index.php(10): yii\base\Application->__construct(Array)
+#5 {main}
+2019-09-02 16:45:49 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Alex\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ALEX-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'e:\\openserver\\ospanel'
+    'HOMEDRIVE' => 'e:'
+    'HOMEPATH' => '\\openserver\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\Alex\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ALEX-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'e:\\openserver\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'e:\\openserver\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'e:\\openserver\\ospanel\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Alex\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64;e:\\openserver\\ospanel\\modules\\imagemagick;e:\\openserver\\ospanel\\modules\\wget\\bin;e:\\openserver\\ospanel\\modules\\git;e:\\openserver\\ospanel\\modules\\git\\bin;e:\\openserver\\ospanel\\modules\\git\\mingw\\bin;e:\\openserver\\ospanel\\modules\\git\\cmd;e:\\openserver\\ospanel\\modules\\database\\PostgreSQL-11.2-x64\\bin;e:\\openserver\\ospanel\\modules\\database\\PostgreSQL-11.2-x64\\lib;e:\\openserver\\ospanel\\modules\\redis\\Redis-3.2-x64;e:\\openserver\\ospanel\\modules\\http\\Nginx_1.14\\bin;e:\\openserver\\ospanel\\modules\\http\\Nginx_1.14;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHPDIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHPRC' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.2\\bin;'
+    'PHP_BIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_BINARY' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_BINDIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHP_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\'
+    'PHP_FCGI_MAX_REQUESTS' => '0'
+    'PHP_INI' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'e:\\openserver\\ospanel\\modules\\php\\PHP_7.3-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'e:/openserver/ospanel/userdata/temp'
+    'TERM' => 'msys'
+    'TMP' => 'e:/openserver/ospanel/userdata/temp'
+    'USERDOMAIN' => 'ALEX-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ALEX-PC'
+    'USERNAME' => 'Alex'
+    'USERPROFILE' => 'C:\\Users\\Alex'
+    'windir' => 'C:\\Windows'
+    '__COMPAT_LAYER' => 'Installer'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8,uk;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'crmapp.local'
+    'TMPDIR' => 'e:/openserver/ospanel/userdata/temp'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'e:/openserver/ospanel/domains/crmapp/web/index.php'
+    'SERVER_SOFTWARE' => 'nginx'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'crmapp.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '9216'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'HTTPS' => ''
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'e:/openserver/ospanel/domains/crmapp/web'
+    'DOCUMENT_URI' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567431949.4667
+    'REQUEST_TIME' => 1567431949
+    'argv' => []
+    'argc' => 0
+]
