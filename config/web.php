@@ -3,7 +3,7 @@ return [
     'id' => 'crmapp',
     'basePath' => dirname(__DIR__) . '/',
     'components' => [
-        'db'=>require (__DIR__.'/db.php'),
+        'db' => require(__DIR__ . '/db.php'),
         'request' => [
             'cookieValidationKey' => 'secretPassword',
         ],
@@ -20,6 +20,13 @@ return [
                 ],
             ],
         ],
+        'view' => [
+            'renderers' => [
+                'md' => [
+                    'class' => \app\utilities\MarkdownRenderer::class
+                ]
+            ]
+        ]
 
     ],
     'modules' => [
@@ -29,9 +36,9 @@ return [
         ],
         'gii' => [
             'class' => \yii\gii\Module::class,
-            'allowedIPs'=>['*'],
+            'allowedIPs' => ['*'],
         ]
     ],
     'bootstrap' => ['debug', 'gii', 'log'],
-    'extensions' => require (__DIR__.'/../vendor/yiisoft/extensions.php')
+    'extensions' => require(__DIR__ . '/../vendor/yiisoft/extensions.php')
 ];

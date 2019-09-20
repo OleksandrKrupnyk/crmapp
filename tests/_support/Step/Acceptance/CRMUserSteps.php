@@ -48,4 +48,11 @@ class CRMUserSteps extends \AcceptanceTester
         $I->amOnPage('/customers');
     }
 
+    public function seeLargeBodyOfText()
+    {
+        $I=$this;
+        $text = $I->grabTextFrom('p');
+        $I->seeContentIsLong($text);
+    }
+
 }
