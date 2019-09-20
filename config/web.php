@@ -24,6 +24,13 @@ return [
             'renderers' => [
                 'md' => [
                     'class' => \app\utilities\MarkdownRenderer::class
+                ],
+            ]
+        ],
+        'response' => [
+            'formatters' => [
+                'yaml' => [
+                    'class' => \app\utilities\YamlResponseFormatter::class
                 ]
             ]
         ]
