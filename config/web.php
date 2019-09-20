@@ -28,9 +28,10 @@ return [
             'allowedIPs' => ['*']
         ],
         'gii' => [
-            'class' => 'yii\gii\Module',
+            'class' => \yii\gii\Module::class,
+            'allowedIPs'=>['*'],
         ]
     ],
     'bootstrap' => ['debug', 'gii', 'log'],
-
+    'extensions' => require (__DIR__.'/../vendor/yiisoft/extensions.php')
 ];
