@@ -7,7 +7,7 @@ use Yii;
 /**
  * This is the model class for table "user".
  *
- * @property int $id
+ * @property int    $id
  * @property string $username Username
  * @property string $password Password
  */
@@ -38,9 +38,19 @@ class UserRecord extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
+            'id'       => 'ID',
             'username' => 'Username',
             'password' => 'Password',
         ];
     }
+
+    public function beforeSave($insert)
+    {
+        $return = parent::beforeSave($insert);
+        if ($this->isAttributeChanged('password')) {
+            $this->password = Yii::$app->getSecurity()->generatePasswordHash($this->password);
+        }
+        return $return;
+    }
+
 }
