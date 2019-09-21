@@ -1,14 +1,15 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
+use app\assets\ApplicationUiAssetBundle;
 use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
-use app\assets\AppAsset;
 
-AppAsset::register($this);
+ApplicationUiAssetBundle::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

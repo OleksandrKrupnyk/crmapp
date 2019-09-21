@@ -21,6 +21,10 @@ return [
             ],
         ],
         'view' => [
+            'theme' => [
+                'class' => \yii\base\Theme::class,
+                'basePath' => '@app/themes/snowy',
+            ],
             'renderers' => [
                 'md' => [
                     'class' => \app\utilities\MarkdownRenderer::class
